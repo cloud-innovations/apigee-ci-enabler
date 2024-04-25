@@ -12,3 +12,5 @@ steps:
     echo "Your API_NAME  is $_API_NAME"
     echo "Your API_ENV is $_API_ENV"
     echo "Your API_REV ID is $_API_REV"
+options:
+  automapSubstitutions: true
