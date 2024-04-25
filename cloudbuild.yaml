@@ -5,7 +5,10 @@ steps:
     echo "Hello World"
 - name: 'ubuntu'
   script: echo hello
-- name: 'python'
+- name: 'ubuntu'
   script: |
-    #!/usr/bin/env python
-    print('hello from python')
+    #!/usr/bin/env bash
+    echo "Your project ID is $PROJECT_ID"
+    echo "Your API_NAME  is $_API_NAME"
+    echo "Your API_ENV is $_API_ENV"
+    echo "Your API_REV ID is $_API_REV"
